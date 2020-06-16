@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="loginbox">
+        <img src="https://www.svgrepo.com/show/170303/avatar.svg" class="avatar">
+        <h2>Login here</h2> 
+
+        <form>
+            <label for="username">Username :</label><br>
+            <input type="text" id="username" name="username" placeholder="Enter your username..."> <br> <br>
+            <label for="pass">Password :</label><br>
+            <input type="password" id="pass" name="pass" placeholder="Enter your password..."> <br> <br>
+    
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label> <br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label> <br> <br>
+    
+            <label for="date">Birthday</label> <br>
+            <input type="date" id="date" name="date"> <br> <br>
+    
+           <select name="browser" id="browser">
+               <option value="chrome">Google Chrome</option>
+               <option value="firefox">Mozilla Firefox</option>
+               <option value="ie">Internet Explorer</option>
+           </select> <br> <br>
+    
+            <textarea name="message" placeholder="Enter your message here..."></textarea> <br> <br>
+    
+            <input type="submit" value="Submit" style="padding: 10px;">
+        </form>
+    </div>
+    
+
+</body>
+</html>
